@@ -76,9 +76,25 @@ layout: section
 ## 總得有個結尾
 
 ---
+layout: image
+---
+
+# 你會被當那一定是有原因的
+
+![寫作業你比較容易過](/pray-for-pass.png)
+
+---
+
+# 跟大家拜託
 
 ::center-block
-大家加油 {.text-6xl .mb-8}
+一定要寫作業！！！{.text-6xl}
+::
+
+---
+
+::center-block
+這個學期一起加油 {.text-6xl .mb-8}
 
 [ヽ(●´∀`●)ﾉ]{.font-mono .text-6xl}
 ::
