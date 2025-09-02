@@ -10,13 +10,16 @@ dependencies:
     version: 1.2.0(postcss@8.5.6)(typescript@5.9.2)(vite@6.3.5)(vue@3.5.20)
   '@slidev/cli':
     specifier: ^52.1.0
-    version: 52.1.0(@types/markdown-it@14.1.2)(postcss@8.5.6)(react@19.1.1)
+    version: 52.1.0(@types/markdown-it@14.1.2)(playwright-chromium@1.55.0)(postcss@8.5.6)(react@19.1.1)
   '@slidev/theme-default':
     specifier: latest
     version: 0.25.0
   '@slidev/theme-seriph':
     specifier: latest
     version: 0.25.0
+  playwright-chromium:
+    specifier: ^1.55.0
+    version: 1.55.0
   slidev-addon-prime:
     specifier: ^0.3.1
     version: 0.3.1(vue@3.5.20)
@@ -2445,7 +2448,7 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /@slidev/cli@52.1.0(@types/markdown-it@14.1.2)(postcss@8.5.6)(react@19.1.1):
+  /@slidev/cli@52.1.0(@types/markdown-it@14.1.2)(playwright-chromium@1.55.0)(postcss@8.5.6)(react@19.1.1):
     resolution: {integrity: sha512-aN15gXhUWc9UC6CBXUbaWIeOYE0mvU4DuOjp0EuBroqD8jpSDKjQKquv0kIEs0JsIymgOpfbOP9Ha1xuZN0Eew==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -2497,6 +2500,7 @@ packages:
       pdf-lib: 1.17.1
       picomatch: 4.0.3
       plantuml-encoder: 1.4.0
+      playwright-chromium: 1.55.0
       postcss-nested: 7.0.2(postcss@8.5.6)
       pptxgenjs: 4.0.1
       prompts: 2.4.2
@@ -6262,6 +6266,21 @@ packages:
 
   /plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
+    dev: false
+
+  /playwright-chromium@1.55.0:
+    resolution: {integrity: sha512-6eInUmPoVZP+COQbXdEqorJTOU3xLOaUhZReZFYtEReR7WMo5iS3/bf4p+xZuFZlSeq1bvbdpujXxUGPCyti/w==}
+    engines: {node: '>=18'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      playwright-core: 1.55.0
+    dev: false
+
+  /playwright-core@1.55.0:
+    resolution: {integrity: sha512-GvZs4vU3U5ro2nZpeiwyb0zuFaqb9sUiAJuyrWpcGouD8y9/HLgGbNRjIph7zU9D3hnPaisMl9zG9CgFi/biIg==}
+    engines: {node: '>=18'}
+    hasBin: true
     dev: false
 
   /points-on-curve@0.2.0:
