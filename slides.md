@@ -1,14 +1,51 @@
 ---
 theme: '@cxphoenix/slidev-theme-fhsh-aisp'
-title: AiSP Slidev 模板
+title: 資訊科技概論第零課
+addons:
+  - 'tldraw'
 drawings:
   persist: false
 transition: slide-left
 mdc: true
+fonts:
+  serif: edukai
+  sans: 'edukai, Noto Sans Traditional Chinese, Roboto'
+  mono: 'Noto Sans Mono, Fira Code'
+  local:
+    - edukai
+  provider: google
 skipPageNumberLayouts:
   - cover
+layoutsIncludeInToc:
+  - section
 ---
 
-# FHSH AiSP 模板
+# 資訊科技概論第零課
 
-## 快速建立
+## 你的人生，你決定
+
+---
+
+# OUTLINE
+
+<CustomToc />
+
+---
+
+# whoami {.font-mono}
+
+## 陳晉 {.pl-6}
+
+::ul {.pl-20}
+- 業界打滾，肝不太好
+- 全復興高中最硬的資訊教師
+- 專長是資安、當人(?)
+::
+
+::v-click
+![Selfie](/self-intro-photo.png) {.absolute .w-75 .top-0 .right-12}
+::
+
+---
+src: pages/course-policies.md
+---
