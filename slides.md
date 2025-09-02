@@ -8,7 +8,7 @@ drawings:
 transition: slide-left
 mdc: true
 fonts:
-  serif: edukai
+  serif: 'Zen Antique, edukai'
   sans: 'edukai, Noto Sans Traditional Chinese, Roboto'
   mono: 'Noto Sans Mono, Fira Code'
   local:
@@ -22,7 +22,7 @@ layoutsIncludeInToc:
 
 # 資訊科技概論第零課
 
-## 你的人生，你決定
+## 你的學期，你決定
 
 ---
 
@@ -49,3 +49,8 @@ layoutsIncludeInToc:
 ---
 src: pages/course-policies.md
 ---
+
+---
+src: pages/course-select.md
+---
+

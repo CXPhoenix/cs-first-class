@@ -17,6 +17,9 @@ dependencies:
   '@slidev/theme-seriph':
     specifier: latest
     version: 0.25.0
+  slidev-addon-prime:
+    specifier: ^0.3.1
+    version: 0.3.1(vue@3.5.20)
   slidev-addon-tldraw:
     specifier: ^0.4.2
     version: 0.4.2(postcss@8.5.6)(react-dom@19.1.1)(react@19.1.1)(typescript@5.9.2)(vite@6.3.5)(vue@3.5.20)
@@ -861,6 +864,71 @@ packages:
 
   /@popperjs/core@2.11.8:
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
+    dev: false
+
+  /@primeuix/styled@0.7.2:
+    resolution: {integrity: sha512-tIJ6byZezTYZ9YUICNSidQHOIQOQL3zeUgjwiX0JnBTK3+WCvy4DyCBcrJ94RtiX0WGFZSYNvaGaFkTo4jU8FQ==}
+    engines: {node: '>=12.11.0'}
+    dependencies:
+      '@primeuix/utils': 0.6.1
+    dev: false
+
+  /@primeuix/styles@1.2.3:
+    resolution: {integrity: sha512-+KwmQsLTYgVAqFADmO252btz40lstPML6r4QMNjxz4gLNCKVW3kPR0/aCouQx6/21+boXG1P68tu8Zk3FAKr2w==}
+    dependencies:
+      '@primeuix/styled': 0.7.2
+    dev: false
+
+  /@primeuix/themes@1.2.3:
+    resolution: {integrity: sha512-GLAU2h6lhgln2w10EQalUQlgwbgQ0xZoIOLMNGfIvqU4O09L282P7rwKCKQksvAGAFt1GoO/Q1NgBSxnttr7iA==}
+    dependencies:
+      '@primeuix/styled': 0.7.2
+    dev: false
+
+  /@primeuix/utils@0.6.1:
+    resolution: {integrity: sha512-tQL/ZOPgCdD+NTimlUmhyD0ey8J1XmpZE4hDHM+/fnuBicVVmlKOd5HpS748LcOVRUKbWjmEPdHX4hi5XZoC1Q==}
+    engines: {node: '>=12.11.0'}
+    dev: false
+
+  /@primevue/auto-import-resolver@4.3.8:
+    resolution: {integrity: sha512-DlMMOSCTdT6Vy7ef1vHrM/cUm7Cw3ep5BXFIJNgdiVnUW6zmZx0ydHHvdJ7E3vK7OQFZIAoSu968M0hcLa0NDg==}
+    engines: {node: '>=12.11.0'}
+    dependencies:
+      '@primevue/metadata': 4.3.8
+    dev: false
+
+  /@primevue/core@4.3.8(vue@3.5.20):
+    resolution: {integrity: sha512-KOE5XnyUlA4qwztQ+HQbeqMrRLgX+VsSfZrtEkkw2HZP+eoT9Ij3AGZx7yJhzLh/4feDZQqWNjG8wRyLmv5GDQ==}
+    engines: {node: '>=12.11.0'}
+    peerDependencies:
+      vue: ^3.5.0
+    dependencies:
+      '@primeuix/styled': 0.7.2
+      '@primeuix/utils': 0.6.1
+      vue: 3.5.20(typescript@5.9.2)
+    dev: false
+
+  /@primevue/icons@4.3.8(vue@3.5.20):
+    resolution: {integrity: sha512-80eeuHPtEcbSfiV2iMWijjqrItU+HIWCZvHclsFt9r30OUFOc2F0BaDZj3JcCEjBgk2dzWVkNnP3D19QQBgt9Q==}
+    engines: {node: '>=12.11.0'}
+    dependencies:
+      '@primeuix/utils': 0.6.1
+      '@primevue/core': 4.3.8(vue@3.5.20)
+    transitivePeerDependencies:
+      - vue
+    dev: false
+
+  /@primevue/metadata@4.3.8:
+    resolution: {integrity: sha512-S99ivoXh1YeX5d8jO2uwd7Z9Vtk6sIT+WZzppLH/lMqIS0GBJp0hY0xS1kjKgUus/+bAr5gkgu8saYT3KK0MFA==}
+    engines: {node: '>=12.11.0'}
+    dev: false
+
+  /@primevue/themes@4.3.8:
+    resolution: {integrity: sha512-/Xtwkgfk5t+NVx4Z90RvLLVKs5/PIALDEAEsBDN4/tBAiA3gYu2hKJspwWHZquWu27YAi7//2vsAZjOpDCssEQ==}
+    engines: {node: '>=12.11.0'}
+    dependencies:
+      '@primeuix/styled': 0.7.2
+      '@primeuix/themes': 1.2.3
     dev: false
 
   /@quansync/fs@0.1.5:
@@ -6258,6 +6326,19 @@ packages:
     hasBin: true
     dev: false
 
+  /primevue@4.3.8(vue@3.5.20):
+    resolution: {integrity: sha512-pVsY/gnS+x3VG/LXqrBGRsmbqNmQSn8NF2VhVf1SF8P5mxBiQJg+5lHe+MtiJlpAm1ACNWlDEcjYxhlFaQYrFA==}
+    engines: {node: '>=12.11.0'}
+    dependencies:
+      '@primeuix/styled': 0.7.2
+      '@primeuix/styles': 1.2.3
+      '@primeuix/utils': 0.6.1
+      '@primevue/core': 4.3.8(vue@3.5.20)
+      '@primevue/icons': 4.3.8(vue@3.5.20)
+    transitivePeerDependencies:
+      - vue
+    dev: false
+
   /prism-theme-vars@0.2.5:
     resolution: {integrity: sha512-/D8gBTScYzi9afwE6v3TC1U/1YFZ6k+ly17mtVRdLpGy7E79YjJJWkXFgUDHJ2gDksV/ZnXF7ydJ4TvoDm2z/Q==}
     dev: false
@@ -6824,6 +6905,20 @@ packages:
 
   /sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
+    dev: false
+
+  /slidev-addon-prime@0.3.1(vue@3.5.20):
+    resolution: {integrity: sha512-gJNM4nvacUsyJsjIq4WjxhFcpuq1Dt1gAM2jFGDZRV+243tVEris6ggL2E9fjrxygmuJClsO+koD3+PiQCIJhA==}
+    dependencies:
+      '@primevue/auto-import-resolver': 4.3.8
+      '@primevue/themes': 4.3.8
+      primevue: 4.3.8(vue@3.5.20)
+      unplugin-vue-components: 28.8.0(vue@3.5.20)
+    transitivePeerDependencies:
+      - '@babel/parser'
+      - '@nuxt/kit'
+      - supports-color
+      - vue
     dev: false
 
   /slidev-addon-tldraw@0.4.2(postcss@8.5.6)(react-dom@19.1.1)(react@19.1.1)(typescript@5.9.2)(vite@6.3.5)(vue@3.5.20):
