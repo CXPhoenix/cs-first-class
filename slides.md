@@ -47,6 +47,19 @@ layoutsIncludeInToc:
 ::
 
 ---
+
+# 如何找到我？
+
+### 出沒地點：
+* 輔大（這學期要開始修博士班 [( ´•̥̥̥ω•̥̥̥` )]{.font-mono} ）
+* 圖書館資訊組辦公室
+* 各地遊走
+
+### 聯繫方式：
+* 信箱: [0826@fhsh.tp.edu.tw]{.font-mono}
+* 學校分機 [641]{.font-mono}
+
+---
 src: pages/course-policies.md
 ---
 
@@ -54,3 +67,18 @@ src: pages/course-policies.md
 src: pages/course-select.md
 ---
 
+---
+layout: section
+---
+
+# 結語
+
+## 總得有個結尾
+
+---
+
+::center-block
+大家加油 {.text-6xl .mb-8}
+
+[ヽ(●´∀`●)ﾉ]{.font-mono .text-6xl}
+::
