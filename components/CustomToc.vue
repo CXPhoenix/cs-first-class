@@ -33,7 +33,7 @@ function filterPageNumber(nav) {
   const filteredPages = slides.filter(
     (v) =>
       v.no !== 1 &&
-      !v.meta?.slide?.frontmatter?.skipToc &&
+      !v.meta?.slide?.frontmatter?.skipInToc &&
       layoutsIncludeInToc.includes(v.meta?.layout ?? "default")
   );
   const filteredPageNumbers = filteredPages.map((v) => v.no);
