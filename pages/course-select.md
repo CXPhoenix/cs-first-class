@@ -121,7 +121,8 @@ timeline
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffdab9', 'pieStrokeColor': '#333333', 'pieLegendTextColor': '#333333', 'pieLegendTextSize': '20px', 'pieSectionTextSize': '36px' }}}%%
 pie showData
     "平時作業" : 30
-    "期末報告" : 30
+    "期末報告" : 20
+    "期末考" : 10
 ```
 ::
 
@@ -157,8 +158,9 @@ timeline
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffdab9', 'pieStrokeColor': '#333333', 'pieLegendTextColor': '#333333', 'pieLegendTextSize': '20px', 'pieSectionTextSize': '36px' }}}%%
 pie showData
-    "平時作業" : 35
-    "期末報告" : 25
+    "平時作業" : 30
+    "期中測驗" : 15
+    "期末考" : 15
 ```
 ::
 
@@ -197,7 +199,7 @@ timeline
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffdab9', 'pieStrokeColor': '#333333', 'pieLegendTextColor': '#333333', 'pieLegendTextSize': '20px', 'pieSectionTextSize': '36px' }}}%%
 pie showData
     "平時作業" : 35
-    "期末報告" : 25
+    "期末專題" : 25
 ```
 ::
 
@@ -230,7 +232,7 @@ timeline
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffdab9', 'pieStrokeColor': '#333333', 'pieLegendTextColor': '#333333', 'pieLegendTextSize': '20px', 'pieSectionTextSize': '36px' }}}%%
 pie showData
     "平時作業" : 35
-    "期末報告" : 25
+    "期末測驗" : 25
 ```
 ::
 
